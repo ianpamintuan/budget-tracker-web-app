@@ -8,6 +8,7 @@ export interface ButtonProps {
 	size?: ButtonSize;
 	disabled?: boolean;
 	onClick?: MouseEventHandler<HTMLButtonElement>;
+	type?: "button" | "submit" | "reset";
 	children: ReactNode;
 }
 
@@ -22,7 +23,7 @@ export const Button: FunctionComponent<ButtonProps> = ({
 	return (
 		<button
 			className={classNames(
-				"rounded text-white",
+				"rounded text-white font-medium",
 				className,
 				variety,
 				size,

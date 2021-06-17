@@ -17,6 +17,9 @@ export const Sizes = () => (
 	</>
 );
 export const Primary = () => <Button>Primary</Button>;
+export const Success = () => (
+	<Button variety={ButtonVariety.Success}>Success</Button>
+);
 export const Danger = () => (
 	<Button variety={ButtonVariety.Danger}>Danger</Button>
 );
