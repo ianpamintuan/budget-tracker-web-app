@@ -1,4 +1,4 @@
-import React, { FunctionComponent, MouseEventHandler, ReactNode } from "react";
+import { FunctionComponent, MouseEventHandler, ReactNode } from "react";
 import { ButtonSize, ButtonVariety } from "../../common/Variety";
 import classNames from "classnames";
 

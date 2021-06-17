@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import { FunctionComponent } from "react";
 import { Button, ButtonProps } from "../../Button";
 
 export interface FormButtonSubmitProps extends ButtonProps {}

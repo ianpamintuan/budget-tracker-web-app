@@ -1,4 +1,3 @@
-import React from "react";
 import { ButtonSize, ButtonVariety } from "../../common/Variety";
 import { Button } from "./Button";
 

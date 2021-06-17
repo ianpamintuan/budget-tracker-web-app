@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from "react";
-import { FieldValues, FormProvider, UseFormReturn } from "react-hook-form";
+import { FunctionComponent } from "react";
+import { FormProvider, UseFormReturn } from "react-hook-form";
 
 export interface FormProps {
 	name?: string;
