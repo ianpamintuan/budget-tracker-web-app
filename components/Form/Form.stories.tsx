@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { Form, FormTextInput } from "./";
+import { Form, FormTextInput, FormSwitch } from "./";
 import { FormButtonSubmit } from "./FormButtonSubmit";
 import { FormField } from "./FormField";
 
@@ -13,6 +13,7 @@ export const Basic = () => {
 		defaultValues: {
 			firstName: "",
 			lastName: "",
+			notifications: false,
 		},
 	});
 
@@ -38,6 +39,13 @@ export const Basic = () => {
 					label="Last name"
 				>
 					<FormTextInput name="lastName" />
+				</FormField>
+				<FormField
+					className="col-span-6 sm:col-span-3"
+					name="notifications"
+					label="Notifications"
+				>
+					<FormSwitch name="notifications" />
 				</FormField>
 				<div className="col-span-6 justify-self-end">
 					<FormButtonSubmit>Submit</FormButtonSubmit>
