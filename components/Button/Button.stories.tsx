@@ -1,4 +1,3 @@
-import React from "react";
 import { ButtonSize, ButtonVariety } from "../../common/Variety";
 import { Button } from "./Button";
 
@@ -17,6 +16,9 @@ export const Sizes = () => (
 	</>
 );
 export const Primary = () => <Button>Primary</Button>;
+export const Success = () => (
+	<Button variety={ButtonVariety.Success}>Success</Button>
+);
 export const Danger = () => (
 	<Button variety={ButtonVariety.Danger}>Danger</Button>
 );
